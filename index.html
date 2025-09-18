@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaziza Tech - Digitize. Automate. Optimize.</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #4F46E5, #EC4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .cta-button {
+            transition: all 0.3s ease;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        .step-card {
+             transition: all 0.3s ease-in-out;
+             border-color: transparent;
+        }
+        .step-card:hover {
+            transform: scale(1.05);
+            border-color: #4F46E5;
+        }
+        .pricing-card {
+            transition: all 0.3s ease-in-out;
+        }
+        .pricing-card:hover {
+            transform: translateY(-5px);
+        }
+        .pricing-popular {
+            border-color: #EC4899;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-200">
+
+    <!-- Header -->
+    <header class="bg-gray-900/80 backdrop-blur-sm sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-white">🚀 Zaziza Tech</h1>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#services" class="hover:text-indigo-400 transition-colors">Services</a>
+                <a href="#pricing" class="hover:text-indigo-400 transition-colors">Pricing</a>
+                <a href="#contact" class="hover:text-indigo-400 transition-colors">Contact</a>
+            </nav>
+            <a href="#contact" class="hidden md:inline-block bg-indigo-600 text-white font-semibold px-5 py-2 rounded-lg cta-button">Get a Free Quote</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="pt-20 pb-24 bg-gray-900">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl md:text-6xl font-extrabold text-white leading-tight">
+                Transform your business in <span class="gradient-text">3 simple steps.</span>
+            </h2>
+            <p class="mt-4 text-lg md:text-xl text-gray-400 max-w-3xl mx-auto">
+                We help South African businesses save time, cut costs, and drive growth with smart, simple AI solutions.
+            </p>
+            <div class="mt-8 flex justify-center space-x-4">
+                <a href="#contact" class="bg-indigo-600 text-white font-bold px-8 py-4 rounded-lg cta-button text-lg">
+                    Book a Free Consultation
+                </a>
+                 <a href="#services" class="bg-gray-700 text-white font-bold px-8 py-4 rounded-lg cta-button text-lg">
+                    Learn More
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Services Section (1-2-3 Transform) -->
+    <section id="services" class="py-20 bg-gray-800">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h3 class="text-3xl md:text-4xl font-bold text-white">Your AI Transformation Journey</h3>
+                <p class="mt-3 text-gray-400 max-w-2xl mx-auto">From paper chaos to predictive power, we guide you every step of the way.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Step 1: Digitize -->
+                <div class="bg-gray-900 p-8 rounded-xl border-t-4 border-transparent step-card">
+                    <div class="flex items-center">
+                        <span class="text-5xl font-extrabold text-indigo-400 mr-4">1</span>
+                        <h4 class="text-2xl font-bold text-white">Digitize <span class="text-base font-normal text-gray-400">(Foundation)</span></h4>
+                    </div>
+                    <p class="mt-4 text-gray-400">We convert your paper records—invoices, client forms, stock sheets—into secure, searchable digital assets using AI. Stored securely in the cloud for access anywhere, anytime.</p>
+                    <ul class="mt-6 space-y-2 text-gray-300">
+                        <li class="flex items-start"><span class="text-indigo-400 mr-2">✓</span> No more lost paperwork</li>
+                        <li class="flex items-start"><span class="text-indigo-400 mr-2">✓</span> Find any document in seconds</li>
+                        <li class="flex items-start"><span class="text-indigo-400 mr-2">✓</span> Save hours of manual searching</li>
+                    </ul>
+                </div>
+
+                <!-- Step 2: Automate -->
+                <div class="bg-gray-900 p-8 rounded-xl border-t-4 border-transparent step-card">
+                     <div class="flex items-center">
+                        <span class="text-5xl font-extrabold text-pink-500 mr-4">2</span>
+                        <h4 class="text-2xl font-bold text-white">Automate <span class="text-base font-normal text-gray-400">(Efficiency)</span></h4>
+                    </div>
+                    <p class="mt-4 text-gray-400">Implement AI-powered chatbots for 24/7 customer service, automate invoicing and payment reminders, and handle routine IT tasks without human intervention.</p>
+                    <ul class="mt-6 space-y-2 text-gray-300">
+                        <li class="flex items-start"><span class="text-pink-500 mr-2">✓</span> Engage customers 24/7</li>
+                        <li class="flex items-start"><span class="text-pink-500 mr-2">✓</span> Get paid faster</li>
+                        <li class="flex items-start"><span class="text-pink-500 mr-2">✓</span> Free up your staff for valuable work</li>
+                    </ul>
+                </div>
+
+                <!-- Step 3: Optimize -->
+                <div class="bg-gray-900 p-8 rounded-xl border-t-4 border-transparent step-card">
+                     <div class="flex items-center">
+                        <span class="text-5xl font-extrabold text-emerald-400 mr-4">3</span>
+                        <h4 class="text-2xl font-bold text-white">Optimize <span class="text-base font-normal text-gray-400">(Growth)</span></h4>
+                    </div>
+                    <p class="mt-4 text-gray-400">Get a "digital advisor" in your pocket. Our AI dashboards reveal sales trends, predict stock needs, and provide insights to help you make smarter, data-driven decisions.</p>
+                    <ul class="mt-6 space-y-2 text-gray-300">
+                         <li class="flex items-start"><span class="text-emerald-400 mr-2">✓</span> Get clarity on your business performance</li>
+                        <li class="flex items-start"><span class="text-emerald-400 mr-2">✓</span> Increase sales and cut costs</li>
+                        <li class="flex items-start"><span class="text-emerald-400 mr-2">✓</span> Reduce risks with predictive insights</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Real World Examples -->
+    <section class="py-20 bg-gray-900">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h3 class="text-3xl md:text-4xl font-bold text-white">Trusted by Local Businesses</h3>
+                <p class="mt-3 text-gray-400 max-w-2xl mx-auto">From workshops to retailers, we deliver real results.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8 text-center">
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <p class="text-6xl mb-2">🩺</p>
+                    <h4 class="font-bold text-xl text-white">Medical Practices</h4>
+                    <p class="text-gray-400 mt-2">A doctor's office digitized 2,000 patient files, making them instantly searchable and saving the front desk over 10 hours a week.</p>
+                </div>
+                 <div class="bg-gray-800 p-6 rounded-lg">
+                    <p class="text-6xl mb-2">🚗</p>
+                    <h4 class="font-bold text-xl text-white">Car Repair Shops</h4>
+                    <p class="text-gray-400 mt-2">An auto shop automated service reminders, boosting repeat customers by 25% and reducing no-shows significantly.</p>
+                </div>
+                 <div class="bg-gray-800 p-6 rounded-lg">
+                    <p class="text-6xl mb-2">🛍️</p>
+                    <h4 class="font-bold text-xl text-white">Retail Stores</h4>
+                    <p class="text-gray-400 mt-2">A retailer used sales insights to optimize promotions around payday, doubling revenue during peak weekends.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-20 bg-gray-800">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h3 class="text-3xl md:text-4xl font-bold text-white">Simple, Scalable Pricing</h3>
+                <p class="mt-3 text-gray-400 max-w-2xl mx-auto">Choose the plan that's right for your business today, and grow with us tomorrow.</p>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-8 max-w-5xl mx-auto items-start">
+                <!-- Starter Pack -->
+                <div class="bg-gray-900 p-8 rounded-xl pricing-card">
+                    <h4 class="font-bold text-2xl text-white">Starter Pack</h4>
+                    <p class="text-gray-400 mt-1">Digitize Only</p>
+                    <p class="text-4xl font-extrabold text-white mt-6">Once-off Fee</p>
+                    <p class="text-gray-400">Per batch of documents</p>
+                    <ul class="mt-8 space-y-3 text-gray-300">
+                        <li class="flex items-center"><span class="text-indigo-400 mr-3">✔</span> AI-Powered Document Scanning (OCR)</li>
+                        <li class="flex items-center"><span class="text-indigo-400 mr-3">✔</span> Secure Cloud Storage Setup</li>
+                        <li class="flex items-center"><span class="text-indigo-400 mr-3">✔</span> Digital Document Organization</li>
+                    </ul>
+                    <a href="#contact" class="mt-8 block w-full text-center bg-gray-700 hover:bg-gray-600 text-white font-semibold py-3 rounded-lg transition-colors">Get a Quote</a>
+                </div>
+
+                <!-- Automation Pack -->
+                <div class="bg-gray-900 p-8 rounded-xl pricing-card relative border-2 pricing-popular">
+                     <div class="absolute top-0 right-8 -mt-4 bg-pink-500 text-white text-sm font-bold px-4 py-1 rounded-full">MOST POPULAR</div>
+                    <h4 class="font-bold text-2xl text-white">Automation Pack</h4>
+                    <p class="text-gray-400 mt-1">Digitize + Automate</p>
+                    <p class="text-4xl font-extrabold text-white mt-6">R1,500 - R3,000</p>
+                    <p class="text-gray-400">Per month</p>
+                    <ul class="mt-8 space-y-3 text-gray-300">
+                        <li class="flex items-center"><span class="text-pink-500 mr-3">✔</span> <strong>Everything in Starter</strong></li>
+                        <li class="flex items-center"><span class="text-pink-500 mr-3">✔</span> AI Customer Service Chatbots</li>
+                        <li class="flex items-center"><span class="text-pink-500 mr-3">✔</span> Automated Invoicing & Reminders</li>
+                        <li class="flex items-center"><span class="text-pink-500 mr-3">✔</span> Automated Notifications (Email/SMS)</li>
+                    </ul>
+                    <a href="#contact" class="mt-8 block w-full text-center bg-pink-600 hover:bg-pink-700 text-white font-semibold py-3 rounded-lg transition-colors">Choose This Plan</a>
+                </div>
+                
+                <!-- Full 1-2-3 Transform -->
+                <div class="bg-gray-900 p-8 rounded-xl pricing-card">
+                    <h4 class="font-bold text-2xl text-white">Full 1-2-3 Transform</h4>
+                    <p class="text-gray-400 mt-1">Digitize + Automate + Optimize</p>
+                    <p class="text-4xl font-extrabold text-white mt-6">R3,500 - R7,000</p>
+                    <p class="text-gray-400">Per month</p>
+                    <ul class="mt-8 space-y-3 text-gray-300">
+                        <li class="flex items-center"><span class="text-emerald-400 mr-3">✔</span> <strong>Everything in Automation</strong></li>
+                        <li class="flex items-center"><span class="text-emerald-400 mr-3">✔</span> AI-Driven Performance Dashboards</li>
+                        <li class="flex items-center"><span class="text-emerald-400 mr-3">✔</span> Predictive Business Insights</li>
+                        <li class="flex items-center"><span class="text-emerald-400 mr-3">✔</span> Basic Cybersecurity & Compliance</li>
+                    </ul>
+                    <a href="#contact" class="mt-8 block w-full text-center bg-gray-700 hover:bg-gray-600 text-white font-semibold py-3 rounded-lg transition-colors">Choose This Plan</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-900">
+        <div class="container mx-auto px-6">
+            <div class="bg-gray-800 rounded-2xl p-8 md:p-12 lg:flex lg:items-center lg:justify-between">
+                <div class="lg:w-1/2">
+                    <h3 class="text-3xl font-bold text-white">Ready to transform your business?</h3>
+                    <p class="mt-3 text-gray-400">Let's chat. We'll assess your needs and provide a free, no-obligation quote to show you how Zaziza Tech can help you grow.</p>
+                     <p class="mt-4 text-sm text-gray-500">Based in Kempton Park, Gauteng. Serving businesses across South Africa.</p>
+                </div>
+                <div class="mt-8 lg:mt-0 lg:w-1/2 lg:pl-12">
+                    <form id="contactForm" class="grid grid-cols-1 gap-y-6">
+                        <div>
+                            <label for="name" class="sr-only">Full name</label>
+                            <input type="text" name="name" id="name" autocomplete="name" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 bg-gray-700 border-gray-600 rounded-md focus:ring-indigo-500 focus:border-indigo-500" placeholder="Full name" required>
+                        </div>
+                        <div>
+                            <label for="email" class="sr-only">Email</label>
+                            <input id="email" name="email" type="email" autocomplete="email" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 bg-gray-700 border-gray-600 rounded-md focus:ring-indigo-500 focus:border-indigo-500" placeholder="Email address" required>
+                        </div>
+                         <div>
+                            <label for="phone" class="sr-only">Phone</label>
+                            <input type="text" name="phone" id="phone" autocomplete="tel" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 bg-gray-700 border-gray-600 rounded-md focus:ring-indigo-500 focus:border-indigo-500" placeholder="Phone number (Optional)">
+                        </div>
+                        <div>
+                            <label for="message" class="sr-only">Message</label>
+                            <textarea id="message" name="message" rows="4" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 bg-gray-700 border-gray-600 rounded-md focus:ring-indigo-500 focus:border-indigo-500" placeholder="Tell us a bit about your business and your needs..." required></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="w-full justify-center inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 cta-button">
+                                Send My Request
+                            </button>
+                        </div>
+                         <p id="form-status" class="text-center text-sm mt-2"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800">
+        <div class="container mx-auto px-6 py-6 text-center text-gray-500">
+            <p>&copy; 2025 Zaziza Tech. All rights reserved.</p>
+            <p class="text-sm">Simplifying AI for South African SMEs.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Contact form submission handling
+        const form = document.getElementById('contactForm');
+        const statusEl = document.getElementById('form-status');
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Basic validation check
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            if (name.trim() === '' || email.trim() === '' || message.trim() === '') {
+                statusEl.textContent = 'Please fill out all required fields.';
+                statusEl.style.color = '#F87171'; // text-red-400
+                return;
+            }
+
+            // Simulate form submission
+            statusEl.textContent = 'Sending...';
+            statusEl.style.color = '#60A5FA'; // text-blue-400
+            
+            setTimeout(() => {
+                statusEl.textContent = "Thank you for your message! We'll be in touch soon.";
+                statusEl.style.color = '#34D399'; // text-green-400
+                form.reset();
+            }, 1500);
+        });
+    </script>
+
+</body>
+</html>
